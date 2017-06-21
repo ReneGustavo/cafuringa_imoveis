@@ -1,0 +1,1 @@
+2015-02-05 20:40:27 :: INSERT INTO fotos (imovel, tipo) VALUES ('14', 'png')

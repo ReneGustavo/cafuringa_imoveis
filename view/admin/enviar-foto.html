@@ -1,0 +1,26 @@
+
+<div id="modal-enviar-foto" class="modal fade bs-modal-lg">
+	<form method="post" id="form-enviar-foto" enctype="multipart/form-data">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Enviar foto</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="post" id="form-login">
+                        <div class="input-group">
+                            <label for="arquivo" class="input-group-addon">Foto(s):</label>
+                            <input type="file" multiple name="arquivo" id="arquivo" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </form>
+</div><!-- /.modal -->
+<script type="text/javascript" src="controler/EnviarFoto.js"></script>

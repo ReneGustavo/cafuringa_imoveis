@@ -1,0 +1,32 @@
+<div id="modal-editar-senha" class="modal fade bs-modal-lg">
+	<form method="post" id="form-editar-senha">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Editar senha</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <label for="senha" class="input-group-addon">Senha atual</label>
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha atual">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="nova_senha" class="input-group-addon">Nova senha</label>
+                        <input type="password" name="nova_senha" id="nova_senha" class="form-control" placeholder="Nova senha">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="confirma_senha" class="input-group-addon">Confirme a senha</label>
+                        <input type="password" name="confirma_senha" id="confirma_senha" class="form-control" placeholder="Nova senha">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="reset" class="btn btn-warning">Limpar</button>
+                    <button type="submit" class="btn btn-success">Editar</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </form>
+</div><!-- /.modal -->
+<script type="text/javascript" src="controler/EditarSenha.js"></script>

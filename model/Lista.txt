@@ -1,0 +1,1 @@
+2017-05-31 15:32:36 :: SELECT id, tipo, modo, cidade, estado, preco FROM imoveis ORDER BY id

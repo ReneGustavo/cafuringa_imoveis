@@ -1,0 +1,1 @@
+2017-05-31 15:32:47 :: SELECT DISTINCT(cidade) FROM imoveis ORDER BY cidade

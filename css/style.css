@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: #1e1e1e;
+    background-image: url('../img/bg.png');
+}
+#todo{
+	margin: 0 auto;
+	width: 70%;	
+}
+#cabecalho{
+	width: 100%;
+	margin: 30px 0;
+	position: relative;
+	height: 172px;
+	background: url(../img/logo.png) no-repeat;
+}
+#logo{
+	float: left;
+	height: 100%;
+}
+#menu{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 172px;
+	width: 80%;
+}
+#links{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 38px;
+	line-height: 38px;
+	/*border-top: 1.9px #214AAD solid;*/
+}
+#links li{
+	list-style: none;
+	float: right;
+}
+#links ul{
+	margin: 0;	
+}
+#links a{
+	font-size: 18px;
+	padding: 10px;
+	border-radius: 0  0 0.5em 0.5em;
+}
+#links a:hover{
+	text-decoration: none;
+}
+#links a.active{
+	color: white;
+	background: #214AAD;	
+}
+#links a.active:hover{
+	color: #CCC;
+}
+.imovel-lista{
+	background: #CCC;
+	border-radius: 0.5em;
+	width: 300px;
+	margin: 10px 0;
+}
+table tr td:first-child .imovel-lista{
+}
+table tr td:last-child .imovel-lista{
+}
+.imovel-lista img{
+	width: 300px;
+	height: 180px;
+	border-radius: 0.5em 0.5em 0 0;
+}
+.imoveis-lista-info{
+	width: 95%;
+	margin: 0 auto;
+	padding: 5px 0;
+	text-align: center;
+	color: #214AAD;
+}
+.imovel-lista:hover{
+	background: #EEE;
+	cursor:pointer;
+}
+#paginador{
+	text-align: center;
+}
+#carregando{
+	display: none;
+	position: fixed;
+	wodth: 10%;
+	top: 40%;
+	left: 40%;
+	margin: 0 auto;
+}
+#form-contato .input-group{
+	margin-bottom: 10px;	
+}
+#form-contato textarea{
+	height: 100px;
+	resize: vertical;
+}
+#form-contato button{
+	float: right;	
+}
+#form-contato button[type='reset']{
+	margin-right: 10px;
+}
+#alerta-canto{
+	position: fixed;
+	right: 20px;
+	bottom: 0;
+	width: 230px;
+	display: none;
+}
+#rodape{
+	padding: 10px 0;
+	text-align: center;	
+}
+.clear{
+	clear: both;	
+}
+#form-filtro .form-group{
+	padding: 5px;	
+}
+#form-filtro select[name='cidade']{
+	width: 200px;
+}
+#form-filtro input[type='number']{
+	width: 80px;	
+}
+#form-filtro button{
+	float: right;
+	margin-top: 10px;
+}
+#form-filtro button[type='reset']{
+	margin-right: 10px;	
+}
+#imovel table td, #imovel table th{
+	padding: 5px;
+	vertical-align: top;	
+}
+#imovel table th{
+	text-align: right;	
+}
+#imovel table th.text-left{
+	text-align: left;	
+}
+#link-admin{
+	float: right;
+	padding-right: 30px;	
+}
+#form-login .input-group:first-child{
+	margin-bottom: 10px;
+}
+#menu-admin{
+	display: none;	
+}
+#menu-admin .dropdown-toggle{
+	margin-right: 20px;	
+}
+#form-cadastrar .row .col-md-4{
+	padding: 0 15px;	
+}
+.sem-padding{
+	padding: 0;
+}
+#img-nome{
+	display: none;	
+}
+#area-imovel-imagens #carousel{
+	width: 400px;
+	height: 300px;
+	padding: 0;
+}
+#modal-ajuda p{
+	text-indent: 25px;
+}
+#modal-ajuda p div{
+	margin-left: 35px;
+}

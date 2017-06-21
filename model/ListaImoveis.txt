@@ -1,0 +1,1 @@
+2017-05-31 15:32:47 :: SELECT DISTINCT(i.id), i.tipo, i.modo, i.situacao, i.cidade, i.estado, i.bairro, i.preco, f.id AS id_foto, f.tipo AS extensao FROM imoveis i, fotos f WHERE i.img_principal = f.id ORDER BY i.id

@@ -1,0 +1,1 @@
+2017-05-31 15:31:27 :: INSERT INTO imoveis (modo, tipo, situacao, estado, cidade, bairro, endereco, numero, complemento, quartos, suites, banheiros, andares, garagem, metragem, outros, detalhes, preco) VALUES ('1', '1', '1', 'AC', 'Teste', 'Teste', 'Teste', 'Teste', 'Teste', '1', '0', '1', '1', '0', '1', '', '', '53453')

@@ -1,0 +1,12 @@
+INSTRUÇÕES DE USO
+
+Olá, professor!
+Este arquivo é apenas um aviso para algumas coisas importantes para o perfeito funcionamento do sistema.
+Para efetuar o login como administrador, vá até o rodapé e clique no ícone localizado no canto direito. É recomendado que utilize o usuário "admin", com senha "admin".
+Existem duas imagens, que fazem parte da pasta fotos, que não devem ser apagadas. Na pasta /img/fotos/300x180, é a imagem 0.jpg, e na pasta /img/fotos/400x300, é a imagem padrao.jpg.
+
+Qualquer dúvida, entre em contato pelos e-mails:
+nandharaadias@gmail.com
+renegustavocegoncalves@gmail.com
+
+Desde já, muito obrigado!

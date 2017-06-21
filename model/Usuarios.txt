@@ -1,0 +1,1 @@
+2015-02-05 20:48:56 :: SELECT id, login FROM usuarios WHERE login != 'admin' ORDER BY login

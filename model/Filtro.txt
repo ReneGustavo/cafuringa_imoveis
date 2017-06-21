@@ -1,0 +1,2 @@
+2015-02-05 20:49:30 :: SELECT DISTINCT(i.id), i.tipo, i.modo, i.situacao, i.cidade, i.estado, i.bairro, i.preco, f.id AS id_foto, f.tipo AS extensao FROM imoveis i, fotos f WHERE i.img_principal = f.id  AND tipo='Apartamento' AND modo='Aluguel' AND suites>='0' AND banheiros>='1' AND salas>='0' AND andares>='1' AND garagem>='0' ORDER BY i.id
+2015-02-05 20:49:30 :: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'tipo' in where clause is ambiguous

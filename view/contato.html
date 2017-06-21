@@ -1,0 +1,24 @@
+<form method="post" id="form-contato">
+	<fieldset>
+    	<legend>Formulário de contato</legend>
+        <div class="input-group">
+            <label class="input-group-addon" from="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="form-control input-lg" placeholder="Qual é o seu nome?">
+        </div>
+        <div class="input-group">
+            <label class="input-group-addon" from="email">E-mail</label>
+            <input type="email" name="email" id="email" class="form-control input-lg" placeholder="E o seu e-mail?">
+        </div>
+        <div class="input-group">
+            <label class="input-group-addon" from="assunto">Assunto</label>
+            <input type="text" name="assunto" id="assunto" class="form-control input-lg" placeholder="Conte-nos o assunto de sua mensagem">
+        </div>
+        <div class="input-group">
+            <label class="input-group-addon" from="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" class="form-control input-lg" placeholder="Deixe aqui sua mensagem para a Cafuringa Imóveis."></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+        <button type="reset" class="btn btn-warning btn-lg">Limpar</button>
+	</fieldset>
+</form>
+<script type="text/javascript" src="controler/Contato.js"></script>

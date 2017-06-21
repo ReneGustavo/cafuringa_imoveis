@@ -1,0 +1,135 @@
+<div id="modal-editar" class="modal fade bs-modal-lg">
+	<form method="post" id="form-editar">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Editar imóvel</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <label for="modo" class="input-group-addon">Modo</label>
+                        <select name="modo" id="modo" class="form-control">
+                        	<option value="1">Aluguel</option>
+                        	<option value="2">Temporada</option>
+                        	<option value="3">Venda</option>
+                        </select>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="tipo" class="input-group-addon">Tipo</label>
+                        <select name="tipo" id="tipo" class="form-control">
+                        	<option value="1">Apartamento</option>
+                        	<option value="2">Casa</option>
+                        	<option value="3">Rural</option>
+                        </select>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="situacao" class="input-group-addon">Situação</label>
+                        <select name="situacao" id="situacao" class="form-control">
+                        	<option value="1">Novo</option>
+                        	<option value="2">Usado</option>
+                        </select>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="estado" class="input-group-addon">Estado</label>
+                        <select name="estado" id="estado" class="form-control">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espirito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="PR">Paraná</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="cidade" class="input-group-addon">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" placeholder="Cidade">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="bairro" class="input-group-addon">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" class="form-control" placeholder="Bairro">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="endereco" class="input-group-addon">Endereço</label>
+                        <input type="text" name="endereco" id="endereco" class="form-control" placeholder="Endereço">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="numero" class="input-group-addon">Número</label>
+                        <input type="text" name="numero" id="numero" class="form-control" placeholder="Número">
+                    </div><br>
+                    <div class="input-group">
+                        <label for="complemento" class="input-group-addon">Complemento</label>
+                        <input type="text" name="complemento" id="complemento" class="form-control" placeholder="Complemento">
+                    </div><br>
+                    <div class="row">
+                        <div class="input-group col-md-4 pull-left">
+                            <label for="complemento" class="input-group-addon">Quartos</label>
+                            <input type="number" min="1" value="1" name="quartos" id="quartos" class="form-control" placeholder="Quartos">
+                        </div>
+                        <div class="input-group col-md-4 pull-left">
+                            <label for="suites" class="input-group-addon">Suítes</label>
+                            <input type="number" min="0" value="0" name="suites" id="suites" class="form-control" placeholder="Suítes">
+                        </div>
+                        <div class="input-group col-md-4">
+                            <label for="banheiros" class="input-group-addon">Banheiros</label>
+                            <input type="number" min="1" value="1" name="banheiros" id="banheiros" class="form-control" placeholder="Banheiros">
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="input-group col-md-4 pull-left">
+                            <label for="andares" class="input-group-addon">Andares</label>
+                            <input type="number" min="1" value="1" name="andares" id="andares" class="form-control" placeholder="Andares">
+                        </div>
+                        <div class="input-group col-md-4 pull-left">
+                            <label for="garagem" class="input-group-addon">Garagem</label>
+                            <input type="number" min="0" value="0" name="garagem" id="garagem" class="form-control" placeholder="Garagem (carros)">
+                        </div>
+                        <div class="input-group col-md-4">
+                            <label for="metragem" class="input-group-addon">Metragem</label>
+                            <input type="number" min="1" value="1" name="metragem" id="metragem" class="form-control" placeholder="Metragem">
+                        </div>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="outros" class="input-group-addon">Outros</label>
+                        <textarea name="outros" id="outros" class="form-control" placeholder="Outros"></textarea>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="detalhes" class="input-group-addon">Detalhes</label>
+                        <textarea name="detalhes" id="detalhes" class="form-control" placeholder="Detalhes"></textarea>
+                    </div><br>
+                    <div class="input-group">
+                        <label for="preco" class="input-group-addon">Preço</label>
+                        <input type="number" min="0" value="1" name="preco" id="preco" class="form-control" placeholder="Preço">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="reset" class="btn btn-warning">Limpar</button>
+                    <button type="submit" class="btn btn-success">Editar</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </form>
+</div><!-- /.modal -->
+<script type="text/javascript" src="controler/Editar.js"></script>
